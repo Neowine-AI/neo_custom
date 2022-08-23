@@ -4,7 +4,6 @@
  * 현재 어니컴의 평가서버는 임시로 오픈되어있는 상태이며, 현품 및 도면이미지도 임시 데이터가 들어있습니다.
  * 어니컴 평가서버에서 어떤 데이터들이 오는지 어떤 방식으로 명령어가 동작하는지 이해를 돕기위해 배포합니다.
  * 명령어를 실행하는 위치에 도면 및 현품 이미지가 저장됩니다.
- * 현재 image_verify, image_acc 명령어만 구현되어있습니다.
 <br>
 
 ## 현재 구현된 명령어
@@ -24,9 +23,11 @@ opencv-python, requests, numpy, onnxruntime (필요 할 경우 pytorch 등등 �
 - custom_bash.sh 실행권한 부여 (755 권한도 괜찮습니다)
 <br>
 `~/NeoCustom$ chmod +x custom_bash.sh` 
+<br>
 - sh파일 실행 (python 파일들과 같은 위치에서 진행해 주셔야 합니다.)
 <br>
 `~/NeoCustom$ custom_bash.sh`
+<br>
 - NeoCustom 폴더 내 models 폴더를 home 위치로 복사
 <br>
 
@@ -62,9 +63,11 @@ ip_path는 ip_path 가 적힌 txt 파일 위치입니다. (ex : /home/user/ip_pa
 위와 같이 같은 명령어가 계속 입력됩니다. 
 <br>
 `vi .bashrc`
+<br>
 이후 지우고 싶은 줄에서 dd를 연타하시면 해당 줄이 지워집니다. 이후 :wq 로 저장해주시고 
 <br>
 `source .bashrc`
+<br>
 를 진행해주세요
 <br>
 
