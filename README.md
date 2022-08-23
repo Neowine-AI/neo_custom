@@ -21,14 +21,12 @@ opencv-python, requests, numpy, onnxruntime (필요 할 경우 pytorch 등등 �
 ### 2. 압축파일 복사 및 설치
 - home 위치에 압축파일 다운로드 및 압축해제
 - custom_bash.sh 실행권한 부여 (755 권한도 괜찮습니다)
-<br>
 
 `~/NeoCustom$ chmod +x custom_bash.sh` 
-<br>
 - sh파일 실행 (python 파일들과 같은 위치에서 진행해 주셔야 합니다.)
-<br>
+
+
 `~/NeoCustom$ custom_bash.sh`
-<br>
 - NeoCustom 폴더 내 models 폴더를 home 위치로 복사
 <br>
 
