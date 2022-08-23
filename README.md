@@ -34,10 +34,11 @@ opencv-python, requests, numpy, onnxruntime (필요 할 경우 pytorch 등등 �
 
 model은 현재 NW입니다. 따라서 NW로 적어주시면됩니다.
 number_of_tests 같은 경우 관세청에서 준 Swaager 링크를 참조하시면, 현재 10까지만 가능합니다.
-
+<br>
 ![image](https://user-images.githubusercontent.com/68864422/186050189-32d540d2-f72a-447a-b428-49d29312ad24.png)
-
+<br>
 ip_path는 ip_path 가 적힌 txt 파일 위치입니다. (ex : /home/user/ip_path.txt)
+<br>
 <br>
 
 ### 테스트로 인하여 sh 파일을 여러번 수정하였을 때
