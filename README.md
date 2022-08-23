@@ -38,6 +38,6 @@
 
 - *model* : "NW" 입력 (기관별로 입력값 달라질 수 있음)
 - *number_of_tests* : 테스트 횟수 (현재 최대 10까지 가능)
-- *ip_path* :  ip_path.txt 파일 위치 (ex : /home/user/ip_path.txt)
+- *ip_path* :  ip_path.txt 파일 위치
 <br>
 
