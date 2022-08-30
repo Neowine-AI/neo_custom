@@ -7,6 +7,8 @@
 ## 현재 구현된 명령어
 - image_verify {model} {number_of_tests} {ip_path}
 - image_acc {model} {number_of_tests} {ip_path}
+- image_verify_test {model} {number_of_tests} {ip_path} {test_type}
+- image_acc_test {model} {number_of_tests} {ip_path} {test_type}
 <br>
 
 ### 1. 필요 라이브러리 설치
@@ -41,3 +43,14 @@
 - *ip_path* :  ip_path.txt 파일 위치
 <br>
 
+### 4. 자체 평가 테스트 명령어
+`image_verify_test {model} {number_of_tests} {ip_path} {test_type}`
+<br>
+
+`image_acc_test {model} {number_of_tests} {ip_path} {test_type}`
+<br>
+
+- *model* : "neo", "tsn", "gcu" 입력 (기관별로 입력값 달라질 수 있음)
+- *number_of_tests* : 테스트 횟수 (현재 최대 10까지 가능)
+- *ip_path* :  ip_path.txt 파일 위치
+- *test_type* : 0 : Random 1 : Same (기본값은 0 입니다.)
