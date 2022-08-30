@@ -12,6 +12,7 @@
 <br>
 
 ### 1. 필요 라이브러리 설치
+- python3 사용
 - opencv-python, requests, numpy, onnxruntime 
 - 필요한 경우 pytorch 등 설치. (추후 기관별로 사용하는 D/L 라이브러리 확정필요)
 <br>
