@@ -4,11 +4,14 @@
  * 명령어를 실행하는 위치에 도면 및 현품 이미지가 저장됩니다.
 <br>
 
-## 현재 구현된 명령어
+## 명령어
+### 어니컴 테스트용 명령어 <br>
 - image_verify {model} {number_of_tests} {ip_path}
 - image_acc {model} {number_of_tests} {ip_path}
+
+### 자체 테스트용 명령어 <br>
 - image_verify_test {model} {number_of_tests} {ip_path} {test_type}
-- image_acc_test {model} {number_of_tests} {ip_path} {test_type}
+- image_acc_test {model} {number_of_tests} {ip_path} 
 <br>
 
 ### 1. 필요 라이브러리 설치
