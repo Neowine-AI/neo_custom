@@ -27,7 +27,7 @@ if(len(sys.argv) == 5) :
 f = open(ip_path_list, 'r')
 guanse_ip_address = f.readline()
 f.close()
-
+# guanse_ip_address = "http://localhost:8080"
 # print(os.path.expanduser('~'))
 # test_path = os.path.dirname(os.path.abspath(__file__))
 test_path = os.path.expanduser('~')

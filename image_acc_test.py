@@ -23,6 +23,7 @@ if(len(sys.argv) == 5) :
 f = open(ip_path_list, 'r')
 guanse_ip_address = f.readline()
 f.close()
+# guanse_ip_address = "http://localhost:8080"
 
 test_path = os.path.expanduser('~')
 
@@ -157,6 +158,9 @@ else :
             resultDataJson = {'req_key' : req_key, "model" : "{}".format(institute_name), "test_id" : "{}".format(test_id), 'reg1' : "32032032002", 'reg2' : "32032032ASDB124", 'reg3' : "A12324BD22214", "check" : 1}
             postResponse = requests.post('{}/image/acc/result'.format(guanse_ip_address), json=resultDataJson)
             responseStatus = postResponse.status_code
+            print("reg1 : {}".format(resultDataJson['reg1']))
+            print("reg2 : {}".format(resultDataJson['reg2']))
+            print("reg3 : {}".format(resultDataJson['reg3']))
             print("TOPN POST Result(Success : 200) : " + str(responseStatus))
             print("")
 
