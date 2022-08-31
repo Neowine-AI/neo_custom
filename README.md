@@ -48,7 +48,7 @@
 `image_verify_test {model} {number_of_tests} {ip_path} {test_type}`
 <br>
 
-`image_acc_test {model} {number_of_tests} {ip_path} {test_type}`
+`image_acc_test {model} {number_of_tests} {ip_path}`
 <br>
 
 - *model* : "neo", "tsn", "gcu" 입력 (기관별로 입력값 달라질 수 있음)

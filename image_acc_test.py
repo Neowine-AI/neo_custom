@@ -13,7 +13,7 @@ if(len(sys.argv) < 4 or len(sys.argv) > 5) :
     print("Usage : image_verify_test <institute_name> <number_of_tests> <ip_path_list> <test_type{ 0(default) : random, 1 : same }>")
     exit()
 
-test_type = 0
+test_type = 1
 institute_name = sys.argv[1]
 number_of_tests = int(sys.argv[2])
 ip_path_list = sys.argv[3]
