@@ -54,7 +54,8 @@
 `image_acc_test {model} {number_of_tests} {ip_path}`
 <br>
 
+- 매일 아침 9시 30분에 이미지가 업데이트 됩니다.
 - *model* : "neo", "tsn", "gcu" 입력 (기관별로 입력값 달라질 수 있음)
-- *number_of_tests* : 테스트 횟수 (현재 최대 10까지 가능)
+- *number_of_tests* : 테스트 횟수 (현재 최대 85까지 가능)
 - *ip_path* :  ip_path.txt 파일 위치
 - *test_type* : 0 : Random 1 : Same (기본값은 0 입니다.)
