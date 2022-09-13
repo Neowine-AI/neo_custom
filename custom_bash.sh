@@ -1,3 +1,8 @@
+echo -e "alias design_rights_enroll='python3 ${HOME}/enroll_neowine/enroll.py' \n" >> ${HOME}/.bashrc
+echo -e "alias design_rights_list='python3 ${HOME}/enroll_neowine/list.py' \n" >> ${HOME}/.bashrc
+echo -e "alias design_rights_delete='python3 ${HOME}/enroll_neowine/delete.py' \n" >> ${HOME}/.bashrc
+echo -e "alias design_rights_clear='python3 ${HOME}/enroll_neowine/clear.py' \n" >> ${HOME}/.bashrc
+
 sudo cp ./image_verify.py /bin
 sudo cp ./image_acc.py /bin
 
